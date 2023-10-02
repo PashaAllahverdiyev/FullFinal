@@ -1,0 +1,160 @@
+.container::after {
+    content: "";
+    display: table;
+    clear: both; 
+    
+}
+a{
+    text-decoration: none;
+}
+
+.photo1 {
+    width: 13%;
+    float: left; 
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.head1 {
+    margin-top: -95px; 
+}
+
+
+
+header {
+    background-color: #ffffff; 
+    color: #fff; 
+    padding: 20px; 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline; 
+    margin-right: 50px; 
+    text-align: center;
+}
+
+nav a {
+    color: #000000; 
+    text-decoration: none; 
+    font-size: 16px;
+    text-align: center;
+    transition: color 0.3s;
+    font-family: Arial, sans-serif;
+    font-weight: bold;  
+    
+}
+
+nav a:hover {
+    color: #efa905; 
+}
+
+.hr1{
+    
+    background-color: #e4e4e4; 
+    height: 2px; 
+    border: none; 
+    
+}
+
+.head1{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.head1 {
+    text-align: center; 
+    padding: 20px; 
+}
+
+.head1 form {
+    display: inline-block; 
+}
+
+.head1 input[type="text"],
+
+.head1 button {
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid #ccc; 
+    border-radius: 25px; 
+}
+
+.head1 input[type="text"] {
+    width: 250px; 
+    margin-right: 10px; 
+}
+
+.head1 button {
+    background-color: #efa905; 
+    color: #fff; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer;
+}
+
+.head1 button:hover {
+    background-color: #91e007; 
+}
+
+
+
+.head1 button i {
+    font-size: 20px; 
+     
+}
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.det-head{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.det{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    margin-left: 20px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.det-foot{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}

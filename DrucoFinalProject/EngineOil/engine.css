@@ -1,0 +1,411 @@
+.container::after {
+    content: "";
+    display: table;
+    clear: both; 
+    
+}
+a{
+    text-decoration: none;
+}
+
+.photo1 {
+    width: 13%;
+    float: left; 
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.head1 {
+    margin-top: -95px; 
+}
+
+
+
+header {
+    background-color: #ffffff; 
+    color: #fff; 
+    padding: 20px; 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline; 
+    margin-right: 50px; 
+    text-align: center;
+}
+
+nav a {
+    color: #000000; 
+    text-decoration: none; 
+    font-size: 16px;
+    text-align: center;
+    transition: color 0.3s;
+    font-family: Arial, sans-serif;
+    font-weight: bold;  
+    
+}
+
+nav a:hover {
+    color: #efa905; 
+}
+
+.hr1{
+    
+    background-color: #e4e4e4; 
+    height: 2px; 
+    border: none; 
+    
+}
+
+.head1{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.head1 {
+    text-align: center; 
+    padding: 20px; 
+}
+
+.head1 form {
+    display: inline-block; 
+}
+
+.head1 input[type="text"],
+
+.head1 button {
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid #ccc; 
+    border-radius: 25px; 
+}
+
+.head1 input[type="text"] {
+    width: 250px; 
+    margin-right: 10px; 
+}
+
+.head1 button {
+    background-color: #efa905; 
+    color: #fff; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer;
+}
+
+.head1 button:hover {
+    background-color: #91e007; 
+}
+
+
+
+.head1 button i {
+    font-size: 20px; 
+     
+}
+
+.hengine{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1100;
+}
+
+
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both; 
+    
+}
+a{
+    text-decoration: none;
+}
+
+.photo1 {
+    width: 13%;
+    float: left; 
+    padding-left: 40px;
+    margin-top: 20px;
+}
+
+.head1 {
+    margin-top: -95px; 
+}
+
+
+
+header {
+    background-color: #ffffff; 
+    color: #fff; 
+    padding: 20px; 
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline; 
+    margin-right: 50px; 
+    text-align: center;
+}
+
+nav a {
+    color: #000000; 
+    text-decoration: none; 
+    font-size: 16px;
+    text-align: center;
+    transition: color 0.3s;
+    font-family: Arial, sans-serif;
+    font-weight: bold;  
+    
+}
+
+nav a:hover {
+    color: #efa905; 
+}
+
+.hr1{
+    
+    background-color: #e4e4e4; 
+    height: 2px; 
+    border: none; 
+    
+}
+
+.head1{
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+}
+
+.head1 {
+    text-align: center; 
+    padding: 20px; 
+}
+
+.head1 form {
+    display: inline-block; 
+}
+
+.head1 input[type="text"],
+
+.head1 button {
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid #ccc; 
+    border-radius: 25px; 
+}
+
+.head1 input[type="text"] {
+    width: 250px; 
+    margin-right: 10px; 
+}
+
+.head1 button {
+    background-color: #efa905; 
+    color: #fff; 
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer;
+}
+
+.head1 button:hover {
+    background-color: #91e007; 
+}
+
+
+
+.head1 button i {
+    font-size: 20px; 
+     
+}
+
+
+/* Temel stil */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.product-container {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.category-container {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.product-block {
+    flex: 0 1 calc(33.33% - 20px);
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: transform 0.2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-block:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    padding: 10px;
+    background-color: #fff;
+}
+
+.product-details h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-details p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.product-rating {
+    margin-top: 10px;
+}
+
+.star {
+    color: gold;
+    font-size: 20px;
+}
+
+.add-to-cart {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.product-block:hover .add-to-cart {
+    opacity: 1;
+}
+
+.add-to-cart button {
+    background-color: #ffbf00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart button:hover {
+    background-color: #0056b3;
+}
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    display: none; /* Başlangıçta gizlenmiş */
+    z-index: 999; /* Diğer öğelerin üzerinde görünmesi için */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.notification-icon {
+    float: left;
+    margin-right: 10px;
+}
+
+.notification-text {
+    float: left;
+}
+.category {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 200px; /* İstediğiniz maksimum genişliği ayarlayabilirsiniz */
+}
+
+/* Kategori başlıklarını vurgulayın */
+h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Ürünleri daha düzenli hale getirin */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Ürün bağlantılarına hover efekti ekleyin */
+a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6600; /* Rengi değiştirmek için istediğiniz rengi kullanabilirsiniz */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
